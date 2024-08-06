@@ -1,0 +1,6 @@
+whoosh
+requests
+babelfish
+subliminal
+jsonpickle
+pysrt
