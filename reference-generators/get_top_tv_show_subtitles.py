@@ -4,8 +4,8 @@ import time
 from constants import SUBTITLES_DIR, TV_URL, POPULAR_TV_SHOWS_URL
 from babelfish import Language
 from subliminal import download_best_subtitles, Episode
+from key import TMDB_API_KEY
 
-TMDB_API_KEY = os.environ['TMDB_API_KEY']
 
 
 def download_subtitles_for_season(series, season, num_episode):
@@ -57,7 +57,7 @@ def get_top_tv_show_subtitles():
 
 def main():
     if not os.path.exists(SUBTITLES_DIR):
-        os.mkSUBTITLES_DIR(SUBTITLES_DIR)
+        os.mkdir(SUBTITLES_DIR)
 
     get_top_tv_show_subtitles()
 
