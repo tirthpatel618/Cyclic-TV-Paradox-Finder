@@ -10,7 +10,7 @@ function MadeBy() {
             id="link"
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/tirthpatel618"
+            href="https://tirthpatel618.vercel.app"
           >
             Tirth Patel
           </a>
